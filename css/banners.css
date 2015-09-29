@@ -1,0 +1,153 @@
+
+.ca-menu{
+    width: 300px;
+}
+.ca-menu li{
+    width: 300px;
+    height: 112px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    box-shadow: rgba(36, 71, 101, 0.3) 0px 5px 7px -4px;
+    margin-bottom: 4px;
+    /*
+    -webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;*/
+}
+
+
+.ca-menu li:last-child{
+    margin-bottom: 0px;
+}
+.ca-menu li a{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #125992;
+    position: relative;
+}
+.ca-icon{
+    
+    font-size: 35px;
+    color: #125992;
+    text-shadow: 0px 0px 1px #ffffff;
+    line-height: 40px;
+    position: absolute;
+    width: 20px;
+    left: 210px;
+    top: 20px;
+    text-align: center;
+    /*
+    -webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	transition: all 300ms linear; */
+}
+.ca-content{
+    position: absolute;
+    left: 30px;
+    width: 200px;
+    height: 90px;
+    top: 35px;
+}
+.ca-main{
+    font: bold 18px/18px arial;
+    color: #125992;
+    -webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	transition: all 300ms linear; 
+  margin-bottom: 10px;
+}
+.ca-sub{
+    font: bold 14px arial;
+    color: #125992;
+}
+.ca-menu li:hover{
+    background-color: #000;
+}
+.ca-menu li:hover .ca-icon{
+    color: #1c64a2;
+    font-size: 120px;
+    
+    /*
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);*/
+}
+.ca-menu li:hover .ca-main{
+    color: #125992;
+    
+}
+.ca-menu li:hover .ca-sub{
+    color: #1c64a2;
+    opacity: 0.8;
+}
+
+.banner1 {
+ background: url(../images/banner1.jpg);
+}
+
+.banner2 {
+ background: url(../images/banner2.jpg);
+}
+
+.banner3 {
+ background: url(../images/banner3.jpg);'
+}
+
+/* Banners - Index ======================================================== */
+	
+#top_baners .wrap {
+	position: relative;
+  z-index: 1;
+}
+#top_baners UL {
+	position: absolute;
+  z-index: 1;
+  top: -147px;
+  width: 100%;
+  overflow: hidden;
+}
+#top_baners LI {
+	float: left;
+  margin-right: 20px;
+}
+#top_baners .last {
+  margin-right:0;
+}
+#top_baners LI IMG {
+	float: left;
+}
+
+/* Banners Catalog and Produtcs pages ======================================================== */
+
+#wrapper .mainContent .product #top_baners {
+  position: static;
+}
+#wrapper .mainContent #inner_baners {
+  margin-top: 39px;
+}
+#wrapper .mainContent #inner_baners .wrap {
+}
+#wrapper .mainContent #inner_baners .wrap UL {
+  width: 100%;
+  overflow: hidden;
+}
+#wrapper .mainContent #inner_baners .wrap LI {
+  float: left;
+  margin-right: 17px;
+}
+#wrapper .mainContent #inner_baners .wrap .last {
+  margin-right:0;
+}
+#wrapper .mainContent #inner_baners LI .wrap IMG {
+	float: left;
+}

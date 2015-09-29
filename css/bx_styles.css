@@ -1,0 +1,60 @@
+#top_slider_prev,
+.bx-prev {
+	position: absolute;
+	z-index: 1;
+	top: 210px;
+	left: 0;
+	width: 19px;
+	height: 37px;
+	text-indent: -9999px;
+	background: url(../images/prev_next.png) no-repeat 0 0;
+}
+#top_slider_next,
+.bx-next {
+	position: absolute;
+	z-index: 1;
+	top: 210px;
+	right: 0;
+	width: 19px;
+	height: 37px;
+	text-indent: -9999px;
+	background: url(../images/prev_next.png) no-repeat 100% 0;
+}
+
+.bx-pager {
+	position: absolute;
+	z-index: 1;
+	top: 400px;
+	left: 0;
+	width: 100%;
+   overflow: hidden;
+   text-align: center;
+}
+.bx-pager A {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	margin: 0 2px;
+	background: url(../images/bullets.png) no-repeat 0 0;
+	text-indent: -9999px;
+}
+.bx-pager .pager-active, .bx-pager A:hover {
+	background: url(../images/bullets.png) no-repeat 0 -20px;
+}
+
+.bx-auto {
+	text-align: center;
+	padding-top: 15px;
+}
+.bx-auto A {
+	color: #666;
+	font-size: 12px;
+}
+.bx-auto .start {
+	background: url(gray_auto.png) no-repeat 0 2px;
+	padding-left: 13px;
+}
+.bx-auto .stop {
+	background: url(gray_auto.png) no-repeat 0 -14px;
+	padding-left: 13px;
+}
