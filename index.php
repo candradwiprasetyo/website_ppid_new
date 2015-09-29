@@ -235,64 +235,112 @@
 <!--============================== Content =================================-->
     <div class="mainContent">
       <div class="wrap">
-        <div class="text">
-          <div class="title">PPID BPM JAWA TIMUR</div>
-          <p>
-            Untuk mewujudkan pelayanan cepat, tepat, dan sederhana Badan Penanaman Modal Provinsi Jawa Timur menunjuk Pejabat Pengelola Informasi dan Dokumentasi.
-Organisasi PPID pada Badan Penanaman Modal Provinsi Jawa Timur pada Tahun 2015 ditetapkan dengan Keputusan Kepala Badan Penanaman Modal Provinsi Jawa Timur No. 188/459/208.1/2015. PPID bertanggung jawab di bidang penyimpanan, pendokumentasian, penyediaan, dan/atau pelayanan informasi badan publik . Dalam melaksanakan tugasnya PPID dibantu pejabat PPID yang ditunjuk dengan Surat Keputusan PPID menyediakan dan memberikan informasi melalui informasi baik secara langsung maupun melalui media :
+        
+        <div class="blog">
+          
+         
 
+<!--============================== Right Column =================================--> 
+          <div class="right">
+           
+            <div class="title">Berita Terkini</div>
+            <div class="blog_posts">
+              <div class="posts_item">
+                <div class="box-showcase">
+                  <div class="box-showcaseInner">
+                    <img src="images/news/1.jpg" alt="#">
+                  </div>
+                </div>
+                <div class="small_news">
+                  <p><a href="#">Wapres Anugerahkan Penghargaan ...</a></p>
+                  <div class="data">12 august 2015</div>
+                </div>
+              </div>
+              <div class="posts_item">
+                <div class="box-showcase">
+                  <div class="box-showcaseInner">
+                    <img src="images/news/2.jpg" alt="#">
+                  </div>
+                </div>
+                <div class="small_news">
+                  <p><a href="#">KIP: MA Tak Patuhi Prinsip Keterbukaan Informasi Publik</a></p>
+                  <div class="data">12 august 2013</div>
+                </div>
+              </div>
+              <div class="posts_item last">
+               <div class="box-showcase">
+                  <div class="box-showcaseInner">
+                    <img src="images/news/3.jpg" alt="#">
+                  </div>
+                </div>
+                <div class="small_news">
+                  <p><a href="#">Pertanggungjawaban dan Kwitansi Pembelanjaan </a></p>
+                  <div class="data">12 august 2013</div>
+                </div>
+              </div>
+            </div>  
+          </div>
 
-            
-          </p><p>
-         ( website : bpm.jatimprov.go.id, Email : invest@bpm.jatimprov.go.id, Telp (031) 354-3333)
-          </p>
-        </div>
-      
-        <div class="list">
-          <div class="title">Important Information</div>
+<!--============================== Left Column =================================--> 
+          <div class="left">
+
+             <div class="main_head" style="margin-top:0px;">
+            <div class="title">PPID BPM JAWA TIMUR</div>
+            <div class="border"></div>
+          </div>
+          
+         
+
+            <a href="#"><img src="images/ppid.jpg" alt="#" style="margin-right:30px; width:300px;"></a>
+            <p>
+              Untuk mewujudkan pelayanan cepat, tepat, dan sederhana Badan Penanaman Modal Provinsi Jawa Timur menunjuk Pejabat Pengelola Informasi dan Dokumentasi.
+Organisasi PPID pada Badan Penanaman Modal Provinsi Jawa Timur pada Tahun 2015 ditetapkan dengan Keputusan Kepala Badan Penanaman Modal Provinsi Jawa Timur No. 188/459/208.1/2015. PPID bertanggung jawab di bidang penyimpanan, pendokumentasian, penyediaan, dan/atau pelayanan informasi badan publik. 
+
+Dalam melaksanakan tugasnya PPID dibantu pejabat PPID yang ditunjuk dengan Surat Keputusan PPID menyediakan dan memberikan informasi melalui informasi baik secara langsung maupun melalui media :
+</p><p>
+<div class="col">
+          
+          
           <ul>
-            <li><a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/index.html#">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></li>
-            <li><a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/index.html#">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium</a></li>            
-            <li><a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/index.html#">Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse</a></li>
+            <li><i class="fa fa-envelope fa-lg"></i> &nbsp;&nbsp;invest@bpm.jatimprov.go.id</li>
+            <li><i class="fa fa-phone fa-lg"></i> &nbsp;&nbsp;&nbsp;031-3537537</li>
+            <li><i class="fa fa-fax fa-lg"></i> &nbsp;&nbsp;031-3531008</li>     
           </ul>
         </div>
-      
-        <div class="clear"></div>
-        <div class="meta_info_shaddow">
-            <div class="shaddow_right"></div>
-            <div class="shaddow_left"></div>
-            <div class="shaddow_center"></div>
+            </p>
+            
+          
+            
+           
+
+<!--============================== Comments =================================--> 
+            
+            
           </div>
+        </div>
+
 <!--============================== Hot Deals =================================-->
         <div class="hor_slider">
           <div class="title">
             <a id="slider2_next">Next</a>
             <a id="slider2_prev">Previos</a>
-            Hot Deals
+            Gallery
           </div>
           
-          <div class="bx-wrapper" style="width:960px; position:relative;"><div class="bx-window" style="position:relative; overflow:hidden; width:960px;"><ul class="goods_list" id="slider2" style="width: 999999px; position: relative; left: -240px;"><li style="width: 220px; float: left; list-style: none;">
+          <div class="bx-wrapper" style="width:960px; position:relative;"><div class="bx-window" style="position:relative; overflow:hidden; width:960px;">
+            <ul class="goods_list" id="slider2" style="width: 999999px; position: relative; left: -240px;">
+              <li style="width: 220px; float: left; list-style: none;">
               <div class="goods_item">
                 <div class="foto">
                   <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto9.jpg" alt=""></a>
+                  
+                  <a href="#"><img src="images/gallery/1.jpg" alt=""></a>
                 </div>
                 <div class="bot">
-                  <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Arbor Element RX</a>
+                  <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Asistensi/ Desk PPID pembantu SKPD Asistensi/ Desk PPID pembantu SKPD</a>
                   
-                  <div class="stars"></div>
+                 
                   
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
                 </div>
               </div>
             </li>
@@ -300,22 +348,12 @@ Recommended weight: 52 - 93 kg
               <div class="goods_item">
                 <div class="foto">
                   <div class="shadow"></div>
-                  <p> Season: 12 - '13<br>
-                    Riding: style universal<br>
-                    Directional: shape<br>
-                    Stiffness: 7/10<br>
-                    The sliding surface: sintered<br>
-                    Recommended weight: 52 - 93 kg </p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto.jpg" alt=""></a> </div>
+                 
+                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/gallery/2.jpg" alt=""></a> </div>
                 <div class="bot">
                     <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Lib Tech Jamie Lynn Phoenix</a>
                     
-                    <div class="stars"></div>
                     
-                    <div class="order">
-                      <a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                      <span class="price">$399.00</span>
-                    </div>
                 </div>
               </div>
             </li>
@@ -324,24 +362,14 @@ Recommended weight: 52 - 93 kg
               <div class="goods_item">
                 <div class="foto">
                   <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto2.jpg" alt=""></a>
+                  
+                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/gallery/3.jpg" alt=""></a>
                 </div>
                 <div class="bot">
                   <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Burton Process</a>
                   
-                  <div class="stars"></div>
                   
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
+                 
                 </div>
               </div>
             </li>
@@ -350,24 +378,13 @@ Recommended weight: 52 - 93 kg
               <div class="goods_item">
                 <div class="foto">
                   <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto3.jpg" alt=""></a>
+                    
+                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/gallery/4.jpg" alt=""></a>
                 </div>
                 <div class="bot">
                   <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Burton Feelgood</a>
                   
-                  <div class="stars"></div>
-                  
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
+                
                 </div>
               </div>
             </li>
@@ -389,11 +406,8 @@ Recommended weight: 52 - 93 kg
                 <div class="bot">
                   <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Burton Custom Flying V</a>
                   
-                  <div class="stars"></div>
                   
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
+                  
                 </div>
               </div>
             </li>
@@ -415,213 +429,12 @@ Recommended weight: 52 - 93 kg
                 <div class="bot">
                   <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Burton Custom X</a>
                   
-                  <div class="stars"></div>
-                  
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
+                 
                 </div>
               </div>
             </li>
             
-            <li class="pager" style="width: 220px; float: left; list-style: none;">
-              <div class="goods_item">
-                <div class="foto">
-                  <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto6.jpg" alt=""></a>
-                </div>
-                <div class="bot">
-                  <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Arbor Element RX</a>
-                  
-                  <div class="stars"></div>
-                  
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            
-         <li class="pager" style="width: 220px; float: left; list-style: none;">
-              <div class="goods_item">
-                <div class="foto">
-                  <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto7.jpg" alt=""></a>
-                </div>
-                <div class="bot">
-                  <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Arbor Element RX</a>
-                  
-                  <div class="stars"></div>
-                  
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            
-               <li class="pager" style="width: 220px; float: left; list-style: none;">
-              <div class="goods_item">
-                <div class="foto">
-                  <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto8.jpg" alt=""></a>
-                </div>
-                <div class="bot">
-                  <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Arbor Element RX</a>
-                  
-                  <div class="stars"></div>
-                  
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            
-               <li class="pager" style="width: 220px; float: left; list-style: none;">
-              <div class="goods_item">
-                <div class="foto">
-                  <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto9.jpg" alt=""></a>
-                </div>
-                <div class="bot">
-                  <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Arbor Element RX</a>
-                  
-                  <div class="stars"></div>
-                  
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-          <li style="width: 220px; float: left; list-style: none;">
-              <div class="goods_item">
-                <div class="foto">
-                  <div class="shadow"></div>
-                  <p> Season: 12 - '13<br>
-                    Riding: style universal<br>
-                    Directional: shape<br>
-                    Stiffness: 7/10<br>
-                    The sliding surface: sintered<br>
-                    Recommended weight: 52 - 93 kg </p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto.jpg" alt=""></a> </div>
-                <div class="bot">
-                    <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Lib Tech Jamie Lynn Phoenix</a>
-                    
-                    <div class="stars"></div>
-                    
-                    <div class="order">
-                      <a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                      <span class="price">$399.00</span>
-                    </div>
-                </div>
-              </div>
-            </li><li style="width: 220px; float: left; list-style: none;">
-              <div class="goods_item">
-                <div class="foto">
-                  <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto2.jpg" alt=""></a>
-                </div>
-                <div class="bot">
-                  <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Burton Process</a>
-                  
-                  <div class="stars"></div>
-                  
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
-                </div>
-              </div>
-            </li><li style="width: 220px; float: left; list-style: none;">
-              <div class="goods_item">
-                <div class="foto">
-                  <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto3.jpg" alt=""></a>
-                </div>
-                <div class="bot">
-                  <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Burton Feelgood</a>
-                  
-                  <div class="stars"></div>
-                  
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
-                </div>
-              </div>
-            </li><li style="width: 220px; float: left; list-style: none;">
-              <div class="goods_item">
-                <div class="foto">
-                  <div class="shadow"></div>
-                    <p>
-Season: 12 - '13<br>
-Riding: style universal<br>
-Directional: shape<br>
-Stiffness: 7/10<br>
-The sliding surface: sintered<br>
-Recommended weight: 52 - 93 kg
-</p>
-                  <a href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html"><img src="images/goods_foto4.jpg" alt=""></a>
-                </div>
-                <div class="bot">
-                  <a class="name" href="http://premiumtheme.ru/goodshopping/colors/blue-and-red/product.html">Burton Custom Flying V</a>
-                  
-                  <div class="stars"></div>
-                  
-                  <div class="order"><a class="but_buy"><i class="icon-shopping-cart icon-large"></i> Buy </a>
-                    <span class="price">$399.00</span>
-                  </div>
-                </div>
-              </div>
-            </li></ul></div></div>
+           </ul></div></div>
         </div>
       </div>
     </div>
@@ -670,7 +483,7 @@ Recommended weight: 52 - 93 kg
     </div>
 
 
-    <div class="footer_bottom">Dikelola Oleh <b>Badan Penanaman Modal Provinsi Jawa Timur</b></div>
+    <div class="footer_bottom">Dikelola Oleh <b><a href="http://bpm.jatimprov.go.id">Badan Penanaman Modal Provinsi Jawa Timur</a></b></div>
 
   </div>
  <script type="text/javascript">

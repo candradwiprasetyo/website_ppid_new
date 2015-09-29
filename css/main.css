@@ -578,7 +578,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9cdd0', end
 
 .mainContent .wrap  .right {
   float: right;
-  width: 222px;
+  width: 282px;
 }
 
 .mainContent .wrap .blog .right .title A {
@@ -619,9 +619,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9cdd0', end
 }
 .mainContent .wrap .blog .right .blog_posts .posts_item IMG {
   float: left;
+ 
 }
 .mainContent .wrap .blog .right .blog_posts .posts_item .small_news {
-  margin-left: 77px;
+  margin-left: 100px;
 }
 .mainContent .wrap .blog .right .blog_posts .posts_item .small_news P {
   padding-bottom: 10px;
@@ -636,7 +637,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9cdd0', end
   display: block;
   padding-left: 17px;
   background: url(../images/ico/data_posts_blog.png) no-repeat 0 0;
-  font: bold 12px/12px arial;
+  font: 12px/12px arial;
   color: #616d7c;
 }
 .mainContent .wrap .blog .right .kalendar {
@@ -673,7 +674,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9cdd0', end
 
 .mainContent .wrap .blog .left {
   margin-right: 50px;
-  width: 660px;
+  width: 600px;
   overflow: hidden;
 }
 .mainContent .wrap .blog .left .title {
@@ -744,6 +745,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9cdd0', end
   padding-bottom: 10px;
   font: 12px/18px arial;
   color: #616d7c;
+  line-height: 20px;
 }
 .mainContent .wrap .blog .left .title_post {
   margin: 6px 0 9px 0;
@@ -1628,7 +1630,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9bcbe', end
 #footer {
 	padding: 31px 0 47px 0;
 	border-top: 1px solid #CDD0D0;
-	background: url(../images/pattern/7.gif) repeat 0 100% #E6E9E9;
+	background: url(../images/pattern/7.gif) repeat top center #E6E9E9;
 	/* text-align:center; */
   overflow: hidden;
 }
@@ -1793,3 +1795,151 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e3e3', end
   color: #fff;
   text-align: center;
 }
+
+.footer_bottom a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* - ---------------------------- showcase new ------------------------------------ */
+  
+    .box-showcase {
+       float: left;
+       position: relative;
+       width: 30%;
+       padding-bottom: 20%;
+     
+       cursor: pointer;
+       border:1px solid #eee;
+    }
+
+    
+  
+    .box-showcaseInner{
+       position: absolute;
+       left: 3px;
+       right: 3px;
+       top: 3px;
+       bottom: 3px;
+       overflow: hidden;
+       background: #ccc;     
+
+    }
+
+   
+
+     .box-showcaseInner img{
+      width:100%;
+     }
+
+   
+  
+
+    .box-showcaseDesc {
+       position: absolute;
+       left: 10px;
+       right: 10px;
+       overflow: hidden;
+       background: #fff;
+       top: 100%;
+       margin-top: -10px;
+       height: 120px;
+       padding: 20px;
+       
+    }
+
+    .box-showcaseDesc_name{
+        color: #2980b9;
+    }
+
+    .box-showcaseDesc_content{
+      height: 50px;
+      max-height: 50px;
+      position: relative;
+    }
+
+    .box-showcaseDesc_by{
+        height: 20px;
+        bottom: 10px;
+    float:left;
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    position:absolute;
+    }
+
+  
+    .box-showcaseInner .img_class {
+    
+       width: 100%;
+        opacity: 1;
+     transition: opacity .25s ease-in-out;
+     -moz-transition: opacity .25s ease-in-out;
+     -webkit-transition: opacity .25s ease-in-out;
+    }
+  
+   
+  
+  
+    .box-showcaseInner img:hover {
+      opacity: 0.5;
+    }
+  
+  
+    .box-showcaseInner .titlebox-showcase {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       margin-bottom: -50px;
+       background: #000;
+       background: rgba(0, 0, 0, 0.5);
+       color: #FFF;
+       padding: 10px;
+       text-align: center;
+       -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+       -o-transition: all 0.3s ease-out;
+       transition: all 0.3s ease-out;
+    }
+  
+  
+    @media only screen and (max-width : 480px) {
+       /* Smartphone view: 1 tile */
+       .box-showcase_new {
+          width: 100%;
+          padding-bottom: 75%;
+       }
+
+      
+     
+    }
+    @media only screen and (max-width : 800px) and (min-width : 481px) {
+       /* Tablet view: 2 tiles */
+       .box-showcase_new {
+          width: 50%;
+          padding-bottom: 35%;
+       }
+
+      
+     
+    }
+    @media only screen and (max-width : 1050px) and (min-width : 801px) {
+       /* Small desktop / ipad view: 3 tiles */
+       .box-showcase_new {
+          width: 33.3%;
+          padding-bottom: 25%;
+       }
+
+      
+     
+    }
+    @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+       /* Medium desktop: 4 tiles */
+       .box-showcase_new {
+          width: 30%;
+          padding-bottom: 18%;
+       }
+
+     
+    }

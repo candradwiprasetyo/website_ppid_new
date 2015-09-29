@@ -479,6 +479,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbced0', end
   background: url(../images/goods_shadow.png) repeat-x 0 0;
 }
 
+.goods_list .goods_item .foto  a img{
+  width: 150%;
+}
+
+.goods_list .goods_item .foto  a img:hover{
+  opacity: 0.5;
+
+}
+
 .goods_list .goods_item .foto P {
   display: none;
   margin: 7px 16px 27px 16px;
@@ -506,12 +515,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbced0', end
 }
 
 .goods_list .goods_item .bot .name {
-  display: block;
+ 
   margin-bottom: 8px;
   font: bold 12px arial;
   color: #000000;
-  white-space: nowrap;
-  overflow: hidden;
+ 
 }
 
 .goods_list .goods_item .bot .stars {
