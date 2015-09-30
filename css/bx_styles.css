@@ -2,8 +2,8 @@
 .bx-prev {
 	position: absolute;
 	z-index: 1;
-	top: 210px;
-	left: 0;
+	top: 170px;
+	left: 10px;
 	width: 19px;
 	height: 37px;
 	text-indent: -9999px;
@@ -13,8 +13,8 @@
 .bx-next {
 	position: absolute;
 	z-index: 1;
-	top: 210px;
-	right: 0;
+	top: 170px;
+	right: 10px;
 	width: 19px;
 	height: 37px;
 	text-indent: -9999px;
@@ -24,9 +24,9 @@
 .bx-pager {
 	position: absolute;
 	z-index: 1;
-	top: 400px;
-	left: 0;
-	width: 100%;
+	top: 355px;
+	left: 0px;
+	width: 620px;
    overflow: hidden;
    text-align: center;
 }
