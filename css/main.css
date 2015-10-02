@@ -1974,6 +1974,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e3e3', end
       width: 620px;
       display: inline-block;
       border-radius: 3px;
+      box-shadow: rgba(36, 71, 101, 0.3) 0px 5px 7px -4px;
+      border: 1px solid #eee;
     }
 
     .right_slider_frame{

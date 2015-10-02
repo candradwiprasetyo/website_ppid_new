@@ -81,14 +81,21 @@
                             
                   </li>
 
-                
+                  <li <?php if(isset($_SESSION['menu_active']) && $_SESSION['menu_active'] == 6){ echo "class='active'"; } ?>>
+                            <a href="upload_file.php">
+                                <i class="fa fa-circle"></i>
+                                <span>Upload File</span>
+                               
+                            </a>
+                            
+                  </li>
                         
                     <?php
                     if($_SESSION['user_type_id'] == 1){
 					?>
                  
                   
-                  <li <?php if(isset($_SESSION['menu_active']) && $_SESSION['menu_active'] == 6){ echo "class='active'"; } ?>>
+                  <li <?php if(isset($_SESSION['menu_active']) && $_SESSION['menu_active'] == 7){ echo "class='active'"; } ?>>
                             <a href="user.php">
                                 <i class="fa fa-users"></i>
                                 <span>User</span>

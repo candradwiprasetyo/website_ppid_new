@@ -155,7 +155,7 @@ if($page == 'home' || $page == ''){
             <ul id="top_slider">
          
              <?php
-             $q_slider = mysql_query("select * from sliders order by slider_id desc");
+             $q_slider = mysql_query("select * from sliders order by slider_id desc limit 5");
              while($r_slider = mysql_fetch_array($q_slider)){
              ?>
               <li class="slide1" style="background: url(assets/images/slider/<?= $r_slider['slider_img'] ?>) no-repeat top center !important; ">

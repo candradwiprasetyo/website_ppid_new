@@ -19,7 +19,7 @@
                                   <h2>Selamat Datang</h2>
                                   <h4> Di website administrator PPID BPM Prov Jatim </h4><br>
                                   <br />
-									<div style="font-size:11px; color:#ccc;">Copyright © 2015, Nation Star Academy. All rights reserved. Powered by Webtocrat Motion</div>
+									<div style="font-size:11px; color:#ccc;">Copyright © 2015, BPM Prov Jatim. All rights reserved. </div>
                                 </div><!-- /.box-body -->
                             </div><!-- /.box -->
                        
