@@ -89,6 +89,24 @@
                             </a>
                             
                   </li>
+                  
+                  <li <?php if(isset($_SESSION['menu_active']) && $_SESSION['menu_active'] == 8){ echo "class='active'"; } ?>>
+                            <a href="periodic_information.php">
+                                <i class="fa fa-circle"></i>
+                                <span>Informasi Berkala</span>
+                               
+                            </a>
+                            
+                  </li>
+                  
+                  <li <?php if(isset($_SESSION['menu_active']) && $_SESSION['menu_active'] == 9){ echo "class='active'"; } ?>>
+                            <a href="any_information.php">
+                                <i class="fa fa-circle"></i>
+                                <span>Informasi setiap saat</span>
+                               
+                            </a>
+                            
+                  </li>
                         
                     <?php
                     if($_SESSION['user_type_id'] == 1){

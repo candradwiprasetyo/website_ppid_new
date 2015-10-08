@@ -1078,7 +1078,7 @@ TABLE {
   border-radius: 6px; 
 }
 TABLE TH {
-  padding: 12px 20px;
+  padding: 5px 10px;
   background: #616d7c;
   font: bold 14px arial;
   color: white;
@@ -1091,7 +1091,7 @@ TABLE TH:last-child {
   border-radius: 0 6px 0 0;
 }
 TABLE TD {
-  padding: 12px 20px;
+  padding: 5px 10px;
   border: solid 1px #E6E9EF;
   font: 12px arial;
   color: #616d7c;

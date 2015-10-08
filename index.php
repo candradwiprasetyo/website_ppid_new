@@ -112,7 +112,7 @@ include 'admin/lib/function.php';
                 $q_menu_child = mysql_query("select * from menus where menu_level = '2' and menu_active_status = '1' and menu_parent_id = '".$r_menu['menu_id']."'");
                 while($r_menu_child = mysql_fetch_array($q_menu_child)){
                 
-                if($r_menu_child['menu_id'] == 12){
+                if($r_menu_child['menu_id'] == 12 or $r_menu_child['menu_id'] == 19 or $r_menu_child['menu_id'] == 21){
                   $link_child = $r_menu_child['menu_url'];
                 }else{
                   $link_child = "index.php?page=content&menu_id=".$r_menu_child['menu_id'];
