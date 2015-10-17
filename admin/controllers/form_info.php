@@ -6,7 +6,7 @@ $page = null;
 $page = (isset($_GET['page'])) ? $_GET['page'] : "list";
 $title = ucfirst("permohonan informasi online");
 
-$_SESSION['menu_active'] = 4;
+$_SESSION['menu_active'] = 10;
 
 switch ($page) {
 	case 'list':

@@ -107,6 +107,15 @@
                             </a>
                             
                   </li>
+                  
+                  <li <?php if(isset($_SESSION['menu_active']) && $_SESSION['menu_active'] == 10){ echo "class='active'"; } ?>>
+                            <a href="any_information.php">
+                                <i class="fa fa-circle"></i>
+                                <span>Permohonan Informas</span>
+                               
+                            </a>
+                            
+                  </li>
                         
                     <?php
                     if($_SESSION['user_type_id'] == 1){
