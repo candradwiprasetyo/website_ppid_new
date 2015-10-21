@@ -1,4 +1,4 @@
-
+﻿
                 <?php
                 if(isset($_GET['did']) && $_GET['did'] == 1){
                 ?>
@@ -75,7 +75,7 @@
 
 
                                                     <a href="any_information.php?page=form&id=<?= $row['any_information_id']?>" class="btn btn-default" ><i class="fa fa-pencil"></i></a>
-                                                 <a href="javascript:void(0)" onclick="confirm_delete(<?= $row['any_information_id']; ?>,'any_information.php?page=delete&id=')" class="btn btn-default" ><i class="fa fa-trash-o"></i></a>
+                                                 <!--<a href="javascript:void(0)" onclick="confirm_delete(<?= $row['any_information_id']; ?>,'any_information.php?page=delete&id=')" class="btn btn-default" ><i class="fa fa-trash-o"></i></a>-->
                                                     
                                                 </td> 
                                             </tr>
@@ -87,12 +87,14 @@
                                            
                                           
                                         </tbody>
+<!--
                                           <tfoot>
                                             <tr>
                                                 <td colspan="4"><a href="<?= $add_button ?>" class="btn btn-success " >Add Menu</a></td>
                                                
                                             </tr>
                                         </tfoot>
+-->
                                     </table>
 
                                 </div><!-- /.box-body -->
