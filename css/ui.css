@@ -889,7 +889,7 @@ box-shadow: rgba(0, 0, 0, 0.20) 0px 2px 2px 0px;
 	cursor: pointer;
 }
 .selectbox .select {
-  width: 130px;
+  width: 230px;
   height: 23px;
   padding: 0 0 0 10px;
   border-style: solid;
@@ -923,7 +923,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeced', end
 }
 .selectbox .select .text {
 	display: block;
-	width: 95%;
+	width: 100%;
 	white-space: nowrap;
 	font: 12px/23px arial;
 	color: #616d7c;

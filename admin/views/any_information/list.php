@@ -90,7 +90,7 @@
 <!--
                                           <tfoot>
                                             <tr>
-                                                <td colspan="4"><a href="<?= $add_button ?>" class="btn btn-success " >Add Menu</a></td>
+                                                <!--<td colspan="4"><a href="<?= $add_button ?>" class="btn btn-success " >Add Menu</a></td>-->
                                                
                                             </tr>
                                         </tfoot>

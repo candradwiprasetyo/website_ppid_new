@@ -1,4 +1,4 @@
-﻿
+
                 <?php
                 if(isset($_GET['did']) && $_GET['did'] == 1){
                 ?>
@@ -56,10 +56,11 @@
                                         <thead>
                                             <tr>
                                             <th width="5%">No</th>
-                                                <th>No Abjad</th>
-                                                <th>Nama</th>
-                                               
-                                                
+                                                <th>Name</th>
+                                                <th>Telepon</th>
+                                                <th>Email</th>
+                                                <th>Alamat</th>
+                                                <th>Type</th>
                                                 <th>Config</th>
                                             </tr>
                                         </thead>
@@ -70,16 +71,15 @@
                                             ?>
                                             <tr>
                                             <td><?= $no?></td>
-                                                <td><?= $row['periodic_information_no'] ?></td>
-                                                 <td><?= $row['periodic_information_name'] ?></td>
-                                                  
-                                                <td style="text-align:center;">
+                                                <td><?= $row['form_information_name'] ?></td>
+                                                <td><?= $row['form_information_phone'] ?></td>
+                                                <td><?= $row['form_information_email'] ?></td>
+                                                <td><?= $row['form_information_addres']?></td>
+                                                <td><? if($row['form_information_type'] == 1){ echo "Organisasi"; }else{ echo "Perorangan"; }?></td>
+                                             <td style="text-align:center;">
 
+                                                    <a href="form_info.php?page=form&id=<?= $row['form_information_id']?>" class="btn btn-default" ><i class="fa fa-pencil"></i></a>
 
-                                                    <a href="periodic_information.php?page=form&id=<?= $row['periodic_information_id']?>" class="btn btn-default" ><i class="fa fa-pencil"></i></a>
-
-                                                <!-- <a href="javascript:void(0)" onclick="confirm_delete(<?= $row['periodic_information_id']; ?>,'periodic_information.php?page=delete&id=')" class="btn btn-default" ><i class="fa fa-trash-o"></i></a>-->
-                                                    
                                                 </td> 
                                             </tr>
                                             <?php
@@ -90,11 +90,11 @@
                                            
                                           
                                         </tbody>
-                                          <!--<tfoot>
+                                          <tfoot>
                                             <tr>
-                                               <!-- <td colspan="4"><a href="<?= $add_button ?>" class="btn btn-success " >Add Menu</a></td>-->
+                                                <!--<td colspan="5"><a href="<?= $add_button ?>" class="btn btn-success " >Add</a></td>-->
                                                
-                                            </tr>-->
+                                            </tr>
                                         </tfoot>
                                     </table>
 

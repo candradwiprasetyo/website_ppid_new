@@ -219,14 +219,7 @@ background: url(../images/bg_search_button.png) no-repeat center;
   overflow: hidden;
 }
 
-.mainContent .text {
-	float:left;
-	width:624px;
-	font:12px arial;
-	color:#616d7c;
-	text-align:left;
-	line-height:18px;
-}
+
 .mainContent .text p {
   padding-bottom: 8px;
   margin: 0;
